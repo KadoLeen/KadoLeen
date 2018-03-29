@@ -81,7 +81,8 @@
         <div class="title m-b-md">
             About
         </div>
-        <p>batatatasssss</p>
+    <p>{{$data['fullname']}}</p>
+    <p>{{$data['email']}}</p>
         <div class="links">
             <a href="https://laravel.com/docs">Documentation</a>
             <a href="https://laracasts.com">Laracasts</a>
