@@ -152,6 +152,6 @@ GitHub.sublime-settings
 !.vscode/launch.json
 !.vscode/extensions.json
 .history
-
+.php_cs.cache
 
 # End of https://www.gitignore.io/api/macos,laravel,phpstorm,sublimetext,visualstudiocode
