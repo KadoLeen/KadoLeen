@@ -52,38 +52,47 @@
                     </div>
                   </nav> --}}
                   <nav class="navbar navbar-expand-md navbar-fixed-top navbar-light" style="background-color: #cc00ff;">
-                        <div class="container">
-                                <a href="#" class="pull-left"><img src="favicon.ico"></a> 
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                  <span class="navbar-toggler-icon"></span>
-                                </button>
-                            <div class="navbar-collapse collapse nav-content order-2">
+                            <div class="navbar-collapse collapse nav-content order-2 order-md-4">
+
                                 <ul class="nav navbar-nav">
+                                    <li>
+                                        <a href="#" class="pull-left"><img src="favicon.ico"></a> 
+                                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                          <span class="navbar-toggler-icon"></span>
+                                        </button>
+                                    </li>
+                                    <li class="nav-item active">
+                                            <a class="nav-link pl-0" href="#">adoLeen</a>
+                                        </li>
                                     <li class="nav-item active">
                                         <a class="nav-link" href="#">Home</a>
                                     </li>
                                 </ul>
                             </div>
-                            <ul class="nav navbar-nav text-nowrap flex-row mx-md-auto order-1 order-md-2">
+                            <ul class="nav navbar-nav text-nowrap flex-row mx-md-auto order-1 order-md-4">
                                     <form class="form-inline my-2 my-lg-0">
                                             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                                             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                                           </form>
                             </ul>
-                            <div class="ml-auto navbar-collapse collapse nav-content order-3 order-md-3">
+                            <div class="ml-auto navbar-collapse collapse nav-content order-3 order-md-4">
                                 <ul class="ml-auto nav navbar-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Rates</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Help</a>
-                                    </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Contact</a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item active dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="#">Profile</a>
+                                            <a class="dropdown-item" href="#">Cart</a>
+                                            <a class="dropdown-item" href="#">Logout</a>
+                                        </div>
+                                    </li>
                                 </ul>
                             </div>
-                        </div>
                     </nav>
 
         <!-- Optional JavaScript -->
